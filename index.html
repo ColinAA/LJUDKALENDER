@@ -13,7 +13,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
     <link href="https://www.dafontfree.net/embed/Y2VudHVyeS1nb3RoaWMtYm9sZCZkYXRhLzQ3L2MvNTA3NjIvZ290aGljYi50dGY" rel="stylesheet" type="text/css"/>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
     <style>
     @font-face {
   font-family: 'CGB';
@@ -36,10 +41,16 @@
       font-family: 'CGB', sans-serif;
       font-size: 20px;
     }
+    .modal-content{
 
+}
+
+  .lucka{
+
+}
     </style>
 
-    <title>Hello, world!</title>
+    <title>Ljudkalender.nu</title>
 
     <div class="card text-white topPanel text-center " style="background-color: #990000;">
   <div class="card-body">
@@ -48,6 +59,10 @@ ljudkalender.nu
 </div>
   </head>
   <body class="p-2 bg-danger">
+    <div class="loader">
+    <img src="img/Winter.gif" alt="Laddar..." />
+</div>
+
     <br>
     <div class="card startMessage text-white bg-success">
   <div class="card-body">
@@ -56,44 +71,25 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
   </div>
 </div>
     <br>
-    <!-- Button trigger modal -->
 
 
-<!-- Modal -->
-<div class="modal fade " id="lucka24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-danger text-white">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Lucka 24</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p3>bla bla bla bla bla bla bla bla bla bla bla blabla bla blabla bla blabla bla bla bla bla blabla bla blabla bla bla bla bla bla</p3><br><br>
-        <audio controls src=""></audio>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
     <div class="container">
       <div class="row">
+        <!-- Början av lucka -->
         <div class="col">
-
-          <div class="card bg-success">
+          <div class="card bg-success lucka">
             <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka24">
+              <div class="card-body luckaNummer text-center ">
+                24
+              </div>
+            </span>
+          </div>
+      </div>
+      <!-- lucka slut.. -->
 
-  <div class="card-body luckaNummer text-center ">
-
-    24
-  </div>
-</spabutton>
-
-</div>
-        </div>
         <div class="col">
           <div class="card bg-success" style="border-style: dotted;">
   <div class="card-body luckaNummer text-center ">
@@ -104,6 +100,65 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
 
       </div>
     </div>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-success">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka1">
+          <div class="card-body luckaNummer text-center ">
+            1
+          </div>
+        </span>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card bg-success">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka24">
+        <div class="card-body luckaNummer text-center ">
+          2
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- lucka modal start -->
+<div class="modal fade " id="lucka1" tabindex="-1" aria-labelledby="1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="1ModalLabel">Lucka 1 - Christmas Gift - Margie Joseph</h3><br>
+            <h3> </h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <h4>Årets Ljudkalender inleder vi med en riktigt härlig soulig jullåt från 1976.
+Margie Joseph var aktiv från början av 70-talet och en bit in på 80-talet.
+Det är nästan konstigt att den här låten inte spelas oftare.</h4><br>
+
+        <audio class="" controls src="songs/01.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+window.addEventListener("load", function () {
+  setTimeout(function(){
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+  },1000); 
+});
+</script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
