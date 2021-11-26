@@ -17,6 +17,10 @@
 
     <link href="https://www.dafontfree.net/embed/Y2VudHVyeS1nb3RoaWMtYm9sZCZkYXRhLzQ3L2MvNTA3NjIvZ290aGljYi50dGY" rel="stylesheet" type="text/css"/>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <style>
@@ -27,6 +31,11 @@
     .topPanel{
       font-family: 'Lobster', cursive;
       font-size: 40px;
+    }
+    .loadingText{
+      font-family: 'Lobster', cursive;
+      font-size: 40px;
+      color: white;
     }
     .luckaNummer{
       font-family: 'Lobster', cursive;
@@ -41,12 +50,18 @@
       font-family: 'CGB', sans-serif;
       font-size: 20px;
     }
-    .modal-content{
 
-}
+    .commentTitle{
+      font-size: 40px;
+      font-family: 'CGB', sans-serif;
+    }
+    .comments{
 
-  .lucka{
-
+      font-family: 'CGB', sans-serif;
+    }
+.footerDark{
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
 }
     </style>
 
@@ -60,7 +75,7 @@ ljudkalender.nu
   </head>
   <body class="p-2 bg-danger">
     <div class="loader">
-    <img src="img/Winter.gif" alt="Laddar..." />
+    <p class="loadingText">ljudkalender.nu</p><br>
 </div>
 
     <br>
@@ -72,7 +87,12 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
 </div>
     <br>
 
-
+    <div class="card startMessage text-center text-white bg-secondary">
+      <div class="card-body">
+         ❄ Kom tillbaka från och med 1 december för att öppna luckor! ❄
+      </div>
+    </div>
+    <br>
 
 
 
@@ -106,6 +126,31 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
   <div class="row">
     <div class="col">
       <div class="card bg-success">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka3">
+          <div class="card-body luckaNummer text-center ">
+            3
+          </div>
+        </span>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card bg-success">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka4">
+        <div class="card-body luckaNummer text-center ">
+          4
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-success">
         <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka1">
           <div class="card-body luckaNummer text-center ">
             1
@@ -116,7 +161,7 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
 
   <div class="col">
     <div class="card bg-success">
-      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka24">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka2">
         <div class="card-body luckaNummer text-center ">
           2
         </div>
@@ -127,12 +172,15 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
 </div>
 
 <!-- lucka modal start -->
+
+
+
 <div class="modal fade " id="lucka1" tabindex="-1" aria-labelledby="1ModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-danger text-white">
       <div class="modal-header">
         <h3 class="modal-title" id="1ModalLabel">Lucka 1 - Christmas Gift - Margie Joseph</h3><br>
-            <h3> </h3>
+
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -150,15 +198,110 @@ Det är nästan konstigt att den här låten inte spelas oftare.</h4><br>
   </div>
 </div>
 
+<div class="modal fade " id="lucka2" tabindex="-1" aria-labelledby="2ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="2ModalLabel">Lucka 2 - Santa Claus Jr - Jim Cagle</h3><br>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <h4>Dags för generationsskifte i tomteverkstan, i alla fall om man får tro denna låt.<br>
+Inspelad 1975 och inte ofta spelad. När jag söker information om artisten hittar jag bara en låt till av artisten, och det är också en jullåt.</h4><br>
+
+        <audio class="" controls src="songs/02.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade " id="lucka3" tabindex="-1" aria-labelledby="3ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="3ModalLabel">Lucka 3 - Mrs, Santa Claus - Zach Rogue
+</h3><br>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <h4>Vi fortsätter på släkttemat i lucka 3. Bakom varje framgångsrik man står en kvinna sägs det och det stämmer bra in på Fru Tomte som inte ens har något förnamn. Inte nog med det, hon får också vara ensam varje jul medan hennes man ränner runt och blir hyllad över hela världen. Ny låt från 2019 av Zach Rogue som tyckte det var dags att hylla Fru Tomte, med all rätt.</h4><br>
+
+        <audio class="" controls src="songs/03.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka4" tabindex="-1" aria-labelledby="4ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="4ModalLabel">Lucka 4 - Christmas Song - Wingtip</h3><br>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <h4>I lucka 4 hittar vi årets första jullåt i vemodets tecken, och det här är bara en i mängden. För många är julen inte bara  glädje, värme och lycka, det blir vi påminda om i den här låten. Den är skriven av Mccarthy Trenching och är en otroligt vacker sång med textrader som "You don't have to be alone to be lonesome."
+</h4><br>
+
+        <audio class="" controls src="songs/02.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="card text-white" style="background-color: #990000;">
+<div class="card-body comments">
+<span class="commentTitle"> &#128172; Lämna en kommentar! </span>
+<h5>info bla blabla blabla bla</h5>
+<!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%241%2FoE6HZQk2c2ChacpLOlq."+"&opts=16798&num=10&ts=1637950901698");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+</div>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 window.addEventListener("load", function () {
   setTimeout(function(){
     const loader = document.querySelector(".loader");
     loader.className += " hidden"; // class "loader hidden"
-  },1000); 
+  },1000);
 });
+
 </script>
+<br>
+<br>
+<br>
+<br>
+<div class="card bg-dark">
+<div class="card-body text-center ">
+<span class="text-muted footerDark comments">ljudkalender.nu</span><br>
+<span class="text-muted">Alla låtar tillhör deras respektive ägare. <br> Byggd med &#10084; & <a href="">bootstrap</a>.</span>
+</div>
+</div>
+
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
