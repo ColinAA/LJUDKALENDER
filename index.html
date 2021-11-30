@@ -19,7 +19,11 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <meta name="description" content="En ny jullåt varje dag av kända och inte lika kända artister ända fram till jul!">
+	  <meta name="keywords" content="ljudkalender, ljudkalender.nu, ljudkalender 2021, ljudkalendern, ljudkalendern 2021">
+	  <meta name="author" content="Ljudkalender 2021">
 
+	<link rel="icon" type="image/png" href="img/favicon-96x96.png">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -42,42 +46,128 @@
           font-size: 80px;
           color: white;
     }
-    .luckaNummer{
-      border:none;
-      border-style: dotted !important;
-    }
+
     .startMessage{
       font-family: 'CGB', sans-serif;
       font-size: 20px;
     }
 
     .commentTitle{
-      font-size: 40px;
+      font-size: 30px;
       font-family: 'CGB', sans-serif;
     }
     .comments{
-
       font-family: 'CGB', sans-serif;
     }
+    .about{
+      font-family: 'CGB', sans-serif;
+      font-size: 20px;
+    }
+    #firstMessage{ font-size: 25px;}
 .footerDark{
   font-family: 'Lobster', cursive;
   font-size: 40px;
 }
-  #HCB_comment_box {
-    color:white;
-  }
+
+
+
+  .luckaINACTIVE {display: none};
 
     </style>
 
     <title>Ljudkalender.nu</title>
 
     <div class="card text-white topPanel text-center " style="background-color: #990000;">
+
+          <ul class="lightrope" style="">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
   <div class="card-body">
 ljudkalender.nu
 </div>
 </div>
+
+
   </head>
   <body class="p-2 bg-danger">
+    <br>
+    <div class="about text-center">
+    <button type="button" class="btn btn-success about"  data-bs-toggle="modal" data-bs-target="#about">Om ljudkalendern</button>
+  </div>
+
+    <br>
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+</div>
     <div class="loader">
     <p class="loadingText">ljudkalender.nu</p><br>
 </div>
@@ -85,61 +175,277 @@ ljudkalender.nu
     <br>
     <div class="card startMessage text-white bg-success">
   <div class="card-body">
-<h1>Välkommen till ljudkalendern 2021!</h1>
-Klicka på en lucka för att öppna den och lyssna på dagens låt!
+<h1>Välkommen till ljudkalendern 2021</h1>
+<p>Klicka på dagens lucka för att öppna den och lyssna på låten!</p>
   </div>
 </div>
     <br>
 
-    <div class="card startMessage text-center text-white bg-dark">
+    <div class="card startMessage text-center text-white bg-dark" id="firstMessage" >
       <div class="card-body">
-         ❄ Kom tillbaka från och med 1 december för att öppna luckor! ❄
+          Kom tillbaka från och med 1 december för att öppna luckor! <br>❄
       </div>
     </div>
-    <br>
-
-
-
+<br class="brINACTIVE" id="br24c">
     <div class="container">
       <div class="row">
-        <!-- Början av lucka -->
         <div class="col">
-          <div class="card bg-success lucka">
-            <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka24">
+          <div class="card bg-success luckaINACTIVE" id="lucka23c">
+            <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka23">
               <div class="card-body luckaNummer text-center ">
-                24
+                23
+              </div>
+            </span>
+      </div>
+    </div>
+
+
+      <div class="col">
+        <div class="card bg-success luckaINACTIVE" id="lucka24c">
+          <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka24">
+            <div class="card-body luckaNummer text-center ">
+              24
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br class="brINACTIVE" id="br22c">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card bg-success luckaINACTIVE" id="lucka21c">
+            <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka21">
+              <div class="card-body luckaNummer text-center ">
+                21
+              </div>
+            </span>
+      </div>
+    </div>
+
+
+      <div class="col">
+        <div class="card bg-success luckaINACTIVE" id="lucka22c">
+          <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka22">
+            <div class="card-body luckaNummer text-center ">
+              22
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br class="brINACTIVE" id="br20c">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card bg-success luckaINACTIVE" id="lucka19c">
+            <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka19">
+              <div class="card-body luckaNummer text-center ">
+                19
               </div>
             </span>
           </div>
       </div>
-      <!-- lucka slut.. -->
-
-        <div class="col">
-          <div class="card bg-success" style="border-style: dotted;">
-  <div class="card-body luckaNummer text-center ">
-    13
-  </div>
-</div>
+      <div class="col">
+          <div class="card bg-success luckaINACTIVE" id="lucka20c">
+            <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka20">
+              <div class="card-body luckaNummer text-center ">
+                20
+              </div>
+            </span>
+          </div>
         </div>
 
+    </div>
+    </div>
+    <br class="brINACTIVE" id="br18c">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card bg-success luckaINACTIVE" id="lucka17c">
+            <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka17">
+              <div class="card-body luckaNummer text-center ">
+                17
+              </div>
+            </span>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="card bg-success luckaINACTIVE" id="lucka18c">
+          <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka18">
+            <div class="card-body luckaNummer text-center ">
+              18
+            </div>
+          </span>
+        </div>
       </div>
     </div>
-<br>
-
+    </div>
+    <br class="brINACTIVE" id="br16c">
 <div class="container">
   <div class="row">
     <div class="col">
-      <div class="card bg-success">
-        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka3">
+      <div class="card bg-success luckaINACTIVE" id="lucka15c">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka15">
           <div class="card-body luckaNummer text-center ">
-            3
+            15
           </div>
         </span>
       </div>
   </div>
 
   <div class="col">
-    <div class="card bg-success">
+    <div class="card bg-success luckaINACTIVE" id="lucka16c">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka16">
+        <div class="card-body luckaNummer text-center ">
+          16
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+<br class="brINACTIVE" id="br14c">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-success luckaINACTIVE" id="lucka13c">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka13">
+          <div class="card-body luckaNummer text-center ">
+            13
+          </div>
+        </span>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card bg-success luckaINACTIVE" id="lucka14c">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka14">
+        <div class="card-body luckaNummer text-center ">
+          14
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+
+<br class="brINACTIVE" id="br12c">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-success luckaINACTIVE" id="lucka11c">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka11">
+          <div class="card-body luckaNummer text-center ">
+            11
+          </div>
+        </span>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card bg-success luckaINACTIVE" id="lucka12c">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka12">
+        <div class="card-body luckaNummer text-center ">
+          12
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+<br class="brINACTIVE" id="br10c">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-success luckaINACTIVE" id="lucka9c">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka9">
+          <div class="card-body luckaNummer text-center ">
+            9
+          </div>
+        </span>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card bg-success luckaINACTIVE" id="lucka10c">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka10">
+        <div class="card-body luckaNummer text-center ">
+          10
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+<br class="brINACTIVE" id="br8c">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-success luckaINACTIVE" id="lucka7c">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka7">
+          <div class="card-body luckaNummer text-center ">
+            7
+          </div>
+        </span>
+      </div>
+  </div>
+
+  <div class="col">
+  <div class="card bg-success luckaINACTIVE" id="lucka8c">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka8">
+        <div class="card-body luckaNummer text-center ">
+          8
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+
+<br class="brINACTIVE" id="br6c">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-success luckaINACTIVE" id="lucka5c">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka5">
+          <div class="card-body luckaNummer text-center ">
+            5
+          </div>
+        </span>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card bg-success luckaINACTIVE" id="lucka6c">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka6">
+        <div class="card-body luckaNummer text-center ">
+          6
+        </div>
+      </span>
+    </div>
+</div>
+</div>
+</div>
+<br class="brINACTIVE" id="br4c">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="">
+      <div class="card bg-success luckaINACTIVE" id="lucka3c">
+        <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka3">
+          <div class="card-body luckaNummer text-center ">
+            3
+          </div>
+        </span>
+      </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card bg-success luckaINACTIVE" id="lucka4c">
       <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka4">
         <div class="card-body luckaNummer text-center ">
           4
@@ -149,22 +455,25 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
 </div>
 </div>
 </div>
-<br>
+</div>
+
+<br class="brINACTIVE" id="br2c">
 
 <div class="container">
   <div class="row">
     <div class="col">
-      <div class="card bg-success">
+      <div class="">
+      <div class="card bg-success luckaINACTIVE" id="lucka1c">
         <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka1">
           <div class="card-body luckaNummer text-center ">
             1
           </div>
         </span>
       </div>
+      </div>
   </div>
-
   <div class="col">
-    <div class="card bg-success">
+      <div class="card bg-success luckaINACTIVE" id="lucka2c">
       <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka2">
         <div class="card-body luckaNummer text-center ">
           2
@@ -174,7 +483,7 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
 </div>
 </div>
 </div>
-
+<br>
 <!-- lucka modal start -->
 
 
@@ -183,17 +492,17 @@ Klicka på en lucka för att öppna den och lyssna på dagens låt!
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-danger text-white">
       <div class="modal-header">
-        <h3 class="modal-title" id="1ModalLabel">Lucka 1 - Christmas Gift - Margie Joseph</h3><br>
+        <h3 class="modal-title" id="1ModalLabel">Lucka 1 - Christmas Gift av Margie Joseph</h3><br>
 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
 
-        <h4>Årets Ljudkalender inleder vi med en riktigt härlig soulig jullåt från 1976.
+        <h4>Årets ljudkalender inleder vi med en riktigt härlig soulig jullåt från 1976.
 Margie Joseph var aktiv från början av 70-talet och en bit in på 80-talet.
 Det är nästan konstigt att den här låten inte spelas oftare.</h4><br>
 
-        <audio class="" controls src="songs/01.mp3"></audio>
+        <audio class="" controls controlsList="nodownload" src="songs/01.mp3"></audio>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
@@ -206,7 +515,7 @@ Det är nästan konstigt att den här låten inte spelas oftare.</h4><br>
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-danger text-white">
       <div class="modal-header">
-        <h3 class="modal-title" id="2ModalLabel">Lucka 2 - Santa Claus Jr - Jim Cagle</h3><br>
+        <h3 class="modal-title" id="2ModalLabel">Lucka 2 - Santa Claus Jr av Jim Cagle</h3><br>
 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -215,7 +524,7 @@ Det är nästan konstigt att den här låten inte spelas oftare.</h4><br>
         <h4>Dags för generationsskifte i tomteverkstan, i alla fall om man får tro denna låt.<br>
 Inspelad 1975 och inte ofta spelad. När jag söker information om artisten hittar jag bara en låt till av artisten, och det är också en jullåt.</h4><br>
 
-        <audio class="" controls src="songs/02.mp3"></audio>
+        <audio class="" controls controlsList="nodownload" src="songs/02.mp3"></audio>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
@@ -229,7 +538,7 @@ Inspelad 1975 och inte ofta spelad. När jag söker information om artisten hitt
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-danger text-white">
       <div class="modal-header">
-        <h3 class="modal-title" id="3ModalLabel">Lucka 3 - Mrs, Santa Claus - Zach Rogue
+        <h3 class="modal-title" id="3ModalLabel">Lucka 3 - Mrs. Santa Claus av Zach Rogue
 </h3><br>
 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -238,7 +547,7 @@ Inspelad 1975 och inte ofta spelad. När jag söker information om artisten hitt
 
         <h4>Vi fortsätter på släkttemat i lucka 3. Bakom varje framgångsrik man står en kvinna sägs det och det stämmer bra in på Fru Tomte som inte ens har något förnamn. Inte nog med det, hon får också vara ensam varje jul medan hennes man ränner runt och blir hyllad över hela världen. Ny låt från 2019 av Zach Rogue som tyckte det var dags att hylla Fru Tomte, med all rätt.</h4><br>
 
-        <audio class="" controls src="songs/03.mp3"></audio>
+        <audio class="" controls controlsList="nodownload" src="songs/03.mp3"></audio>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
@@ -251,7 +560,7 @@ Inspelad 1975 och inte ofta spelad. När jag söker information om artisten hitt
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-danger text-white">
       <div class="modal-header">
-        <h3 class="modal-title" id="4ModalLabel">Lucka 4 - Christmas Song - Wingtip</h3><br>
+        <h3 class="modal-title" id="4ModalLabel">Lucka 4 - Christmas Song av Wingtip</h3><br>
 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -260,7 +569,7 @@ Inspelad 1975 och inte ofta spelad. När jag söker information om artisten hitt
         <h4>I lucka 4 hittar vi årets första jullåt i vemodets tecken, och det här är bara en i mängden. För många är julen inte bara  glädje, värme och lycka, det blir vi påminda om i den här låten. Den är skriven av Mccarthy Trenching och är en otroligt vacker sång med textrader som "You don't have to be alone to be lonesome."
 </h4><br>
 
-        <audio class="" controls src="songs/02.mp3"></audio>
+        <audio class="" controls controlsList="nodownload" src="songs/04.mp3"></audio>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
@@ -268,33 +577,527 @@ Inspelad 1975 och inte ofta spelad. När jag söker information om artisten hitt
     </div>
   </div>
 </div>
+
+<div class="modal fade " id="lucka5" tabindex="-1" aria-labelledby="5ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="5ModalLabel">Lucka 5 - Jingle Bells Cha Cha Cha av Pearl Bailey + Back Door Santa av Clarence Carter </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+        I dagens lucka hittar vi två låtar eftersom de är så korta. Först ut en underbar variant på Jingle Bells inspelad redan 1959 av Pearl Bailey. Hon var artist och skådespelerska både på film och scen och hade till och med en egen tv-show  som sändes 1971. Denna underbara variant på Jingle Bells får mig att längta efter en jul på ett varmare ställe med ett dopp i havet istället för dopp i grytan.<br><br>
+        Andra låten för dagen är en klassiker ifrån Clarence Carter inspelad 1968. Texten är helt klart öppen för tolkning, men en pappa som ville slippa fler frågor från barnen sa att låten handlar om en familj som inte hade nån skorsten och eftersom ytterdörren skulle vara låst fick tomten använda bakdörren...</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/05.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka6" tabindex="-1" aria-labelledby="6ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="6ModalLabel">Lucka 6 - Merry Merry Christmas Everyone av Jon McLaughlin  </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          I lucka nr. 6 hittar vi en låt som påminner oss om allt som är mysigt med julen. Vi plockar fram julbelysningen, snön kommer (kanske) och barnen börjar längta efter att tomten ska komma.<br>
+  Jon skrev den här låten 2010 men den kom ut på album först 2014 (The Christmas EP).<br>
+  Lyssna och njut och har ni inte börjat tänka på årets glögg och julbaket så är det dags att göra det nu.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/06.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka7" tabindex="-1" aria-labelledby="7ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="7ModalLabel">Lucka 7 - Too Fat For The Chimney av Les Brown, Teresa Brewern  </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+       Redan 1953 när den här låten skrevs var tomten för tjock för att komma ner i skorstenen och han lär ju inte ha blivit smalare med åren. En ganska barnslig men charmig låt från den gamla tidens jullåtar.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/07.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka8" tabindex="-1" aria-labelledby="8ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="8ModalLabel">Lucka 8 - When December Comes av Nate Williams </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+      Härlig modern soul med tydliga influenser från såväl Stevie Wonder som andra amerikanska soulartister. Det är svårt att tänka sig att den här artisten kommer från Wales och den lilla byn Llanfaipwll (ingen aning om hur det uttalas) när man hör hans musik.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/08.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka9" tabindex="-1" aria-labelledby="9ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="9ModalLabel">Lucka 9 - Every Holiday av Mt. Joy </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+       Det här är en sån där jullåt som egentligen inte kan kallas för jullåt. Den handlar om att ta sig igenom julen hel och ren tills vardagen börjar igen. Trots den dystra texten gör den vackra melankoliska melodin att man trots allt känner ett slags hoppfullhet.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/09.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka10" tabindex="-1" aria-labelledby="10ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="10ModalLabel">Lucka 10 - Christmas Valentine av Ingrid Michaelson, Jason Mraz </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+       Låten i dagens lucka får en att tänka på en sån där amerikansk filmvinterscen med skridskor och varm choklad i parken. Den känns som en klassisk gammal jullåt men skrevs så sent som 2019. Den fastnar lätt och har man otur så sitter den kvar hela dagen.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/10.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka11" tabindex="-1" aria-labelledby="11ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="11ModalLabel">Lucka 11 - Santafly av Martin Mull & The Sondra Baskin Glee Club </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+        Santafly med tydliga vibbar från "Superfly" av Curtis Mayfield. Martin Mull är en amerikansk allkonstnär som synts som skådespelare i ett otal film och tv-program. Hans musik har ofta varit "på riktigt" men ändå alltid haft vissa komiska inslag, framförallt i texterna. Santafly från 1973 känns lite som en flirt eller kanske en känga åt de många låtar i polisserier som dök upp på 70-talet. Svängigt är det oavsett!</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/11.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka12" tabindex="-1" aria-labelledby="12ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="12ModalLabel">Lucka 12 - We're The Lucky Ones av The Marias </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+       Indiepopbandet med ursprung från Puertorico och USA gör låtar både på spanska och engelska och blandar musikstilar men sångerskans röst går som en röd tråd genom alla låtarna. Den här avskalade jullåten skrevs för ett år sedan mitt under pandemin och handlar om hur tacksamma vi som inte drabbats ska vara som återigen får uppleva allt fint som kommer till jul. "Vi är lyckligt lottade."</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/12.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka13" tabindex="-1" aria-labelledby="13ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="13ModalLabel">Lucka 13 - This Christmas (I'll Be By Your Side) av Michelle David & The Gospel Sessions </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+        Glad Lucia!! Idag dyker det upp härlig soul med vibbar från 60- och 70-tal trots att låten kom så sent som 2020. Bandet bildades som ett experimentband för att utforska soul och gospel men det blev så bra att de fortsatte som band och det tackar vi för.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/13.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka14" tabindex="-1" aria-labelledby="14ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="14ModalLabel">Lucka 14 - Have Yourself A Merry Little Christmas av Ella Fitzgerald </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+       En riktig klassiker i lucka nummer 14, men inte så ofta framförd på det sätt som den här framförs. Fantastisk orkestrering med en minst lika fantastisk Ella. Svårt att inte nynna med och även här stor varning för öronmask resten av dagen.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/14.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka15" tabindex="-1" aria-labelledby="15ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="15ModalLabel">Lucka 15 - Ho! Ho! Ho! (Who'd Be A Turkey At Christmas) av Elton John </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          I lucka 15 är en låt från Sir Elton John med text av hans eviga följeslagare Bernie Taupin. Den är inspelad redan 1973 (bra år) så många låtar har tillkommit efter denna.<br>
+    Låtens text är inte helt lätt att hänga med i men börjar med att Elton sitter hemma vid jul med ett antal konjak innanför västen och börjar plötsligt se och höra nåt som man nog får anta är jultomten. Rolig och underhållande och med ett väldigt tydligt Elton John-sound.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/15.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka16" tabindex="-1" aria-labelledby="16ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="16ModalLabel">Lucka 16 - All I Want For Christmas av PJ Morton, Stokley </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+         En klassisk låt som vi oftast hör i originalversionen med Mariah Carey från 1994. Här en lite svängigare version med ett riktigt skönt gung i från 2018.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/16.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka16" tabindex="-1" aria-labelledby="16ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="16ModalLabel">Lucka 16 - All I Want For Christmas av PJ Morton, Stokley </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+         En klassisk låt som vi oftast hör i originalversionen med Mariah Carey från 1994. Här en lite svängigare version med ett riktigt skönt gung i från 2018.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/16.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade " id="lucka17" tabindex="-1" aria-labelledby="17ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="17ModalLabel">Lucka 17 - Funky Little Drummer Boy av Sharon Jones & The Dap Kings</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          Även i dagens lucka hittar vi en låt med ursprung från en riktigt klassisk jullåt. Den har sitt ursprung 1941 men spelades in först 1951 och hette från början"Carol Of The Drums". Låten har spelats in av en mängd kända och okända artister och den här versionen, inspelad 2015, har som titeln antyder ett mer funkigt sound än originalet.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/17.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka18" tabindex="-1" aria-labelledby="18ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="18ModalLabel">Lucka 18 - It's Christmas av Cody </h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          Firar man jul i Danmark? Absolut, de har bara lite konstiga namn för allt.<hr>
+Jultomten=Julemanden,<br> Risgrynsgröt=Risalamande,<br> Julmust=Carlsberg  <hr>
+Dagens låt framförs av det danska bandet Cody, med Kasper Kaae som frontfigur. 2016 skrev han låten och som tur är sjunger han på engelska.</h4><br>
+
+        <audio class="" controls controlsList="nodownload" src="songs/18.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade " id="lucka19" tabindex="-1" aria-labelledby="19ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="19ModalLabel">Lucka 19 - The Secret Of Christmas av Mother's Daughter, Beck Pete, Ryan James Tillema</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+           I lucka nummer 19 hittar vi hemligheten med julen...eller? Låten skrevs 1959 och spelades in första gången av Bing Crosby till filmen "Say One For Me". Sedan dess har den spelats in i en massa versioner och här är en otroligt vacker där textens innebörd kommer fram otroligt fint.</h4><br>
+        <audio class="" controls controlsList="nodownload" src="songs/19.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka20" tabindex="-1" aria-labelledby="20ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="20ModalLabel">Lucka 20 - This Christmas av Donny Hathaway</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+            En av mina absoluta favoriter bland jullåtar. Den skrevs av Donny Hathaway och Nadine Mckinnor 1970 och var ett försök att få in mer afroamerikansk musik bland julmusiken. Den är en hyllning till hoppets och glädjens högtid och den får i alla fall mig på bra humör.</h4><br>
+        <audio class="" controls controlsList="nodownload" src="songs/20.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka21" tabindex="-1" aria-labelledby="21ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="21ModalLabel">Lucka 21 - Christmastime av Jenny & Tyler</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+         Nu börjar vi närma oss jul på riktigt och i dagens lucka blir det riktigt sockersött och mysigt från en amerikansk duo som håller ihop, både i musiken och i livet. Musikstilen kallar de för "soul-grass" och i den här låten är det ett riktigt skönt gung.<br> Varning för ännu en låt som fastnar i huvudet resten av dagen.</h4><br>
+        <audio class="" controls controlsList="nodownload" src="songs/21.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka22" tabindex="-1" aria-labelledby="22ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="22ModalLabel">Lucka 22 - Santa Claus Go Straight To The Ghetto av James Brown</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+         I lucka 22 kommer en uppmaning från James Brown till tomten att prioritera de som verkligen behöver lite värme och omsorg. Den kom 1968 och har ett skönt sväng. Det finns en hel del paralleller med en viss kille i målbrottet som delar ut paket till de som behöver gåvorna bättre än rika direktörer och varuhusägare.</h4><br>
+        <audio class="" controls controlsList="nodownload" src="songs/22.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka23" tabindex="-1" aria-labelledby="23ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="23ModalLabel">Lucka 23 - Wonderful Christmas av Lady A</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          Paul McCartneys låt från 1979 är en låt som jag verkligen förknippar med julen. 41 år senare (2020) gjorde Countrybandet Lady A en uppfräschad och modernare version av låten. De har verkligen lyckats behålla allt som jag gillar med låten och adderat blås och stråkar.<br>
+    Hoppas att ni inte har allt för mycket kvar att fixa inför julafton men kom ihåg att allt inte behöver vara perfekt! Som låten säger, "simply having a wonderful christmas time"
+</h4><br>
+        <audio class="" controls controlsList="nodownload" src="songs/23.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="lucka24" tabindex="-1" aria-labelledby="24ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="24ModalLabel">Lucka 24 - Ole Santa av Dinah Washington</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          "Queen of the blues" avslutar årets ljudkalender med en väldigt fin låt. Dinah Washington hade en fantastiskt speciell röst och trots att hon bara blev 39 år hann hon göra ett starkt avtryck i jazz- och blues-musiken.
+       God jul önskar vi er alla och hoppas att ni gillat musiken och hittat några nya favoriter i årets ljudkalender.<br>
+</h4><br>
+        <audio class="" controls controlsList="nodownload" src="songs/24.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="modal fade " id="about" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="ModalLabel">Om ljudkalendern</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+          White Christmas i all ära, men julmusikens universum är större än så. Jag har alltid gillat julmusik. Inte bara de låtar som går på repeat i affärerna utan även de med en annorlunda touch, de som sällan spelas, och även alla nya fantastiska jullåtar som skrivs varje år. Därför har jag med hjälp av familjen även i år skapat en ljudkalender där det dyker upp en ny jullåt i luckan varje dag ända fram till jul.
+<br><br>Hör gärna av dig om du undrar något. <br>
+<a href="mailto:ljudkalender@gmail.com"><br>
+<button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Maila oss!</button>
+</a>
+        </h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
 <br>
 <div class="card text-white" style="background-color: #990000;">
 <div class="card-body comments">
-<span class="commentTitle"> &#128172; Lämna en kommentar! </span>
-<h5>info bla blabla blabla bla</h5>
-<section id="app">
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div class="comment">
-        <p v-for="items in item" v-text="items"></p>
-          </div><!--End Comment-->
-          </div><!--End col -->
-          </div><!-- End row -->
-      <div class="row">
-        <div class="col-6">
-      <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
-          <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
-        </div><!-- End col -->
-      </div><!--End Row -->
-    </div><!--End Container -->
-  </section><!-- end App -->
+<span class="commentTitle"> &#128172; Sprid julglädjen! </span>
+<h5>Klicka på knappen för att tipsa en vän om ljudkalender.nu</h5>
+<a  href="mailto:?subject=Kolla%20in%20ljudkalender.nu%20%F0%9F%8E%84&body=Hej!%0A%0AJag%20vill%20tipsa%20dig%20om%20ljudkalender.nu%20d%C3%A4r%20du%20kan%20h%C3%B6ra%20ovanliga%2C%20och%20ovanligt%20bra%2C%20jull%C3%A5tar.%0AEn%20l%C3%A5t%20varje%20dag%20fram%20till%20julafton.%0A%0Ahttps%3A%2F%2Fljudkalender.nu">
+<button type="button" class="btn btn-secondary btn-lg">&#9993;&#65039; Tipsa!</button>
+</a>
 </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+<script>
+var rev = "fwd";
+function titlebar(val){
+  var msg  = "ljudkalender.nu";
+  var res = " ";
+  var speed = 100;
+  var pos = val;
+  msg = "   ❆❄"+msg+"❄❆";
+  var le = msg.length;
+  if(rev == "fwd"){
+      if(pos < le){
+          pos = pos+1;
+          scroll = msg.substr(0,pos);
+          document.title = scroll;
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+      }
+      else {
+          rev = "bwd";
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+      }
+  }
+  else {
+      if(pos > 0) {
+          pos = pos-1;
+          var ale = le-pos;
+          scrol = msg.substr(ale,le);
+          document.title = scrol;
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+      }
+      else {
+          rev = "fwd";
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+      }
+  }
+}
+titlebar(0);
+</script>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
 
 
 <script>
@@ -302,22 +1105,32 @@ window.addEventListener("load", function () {
   setTimeout(function(){
     const loader = document.querySelector(".loader");
     loader.className += " hidden"; // class "loader hidden"
+    $('.brINACTIVE').remove();
   },1000);
 });
-
-
 </script>
+
+<script src="js/main.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
 <br>
 <br>
 <br>
 <br>
-<div class="card bg-dark">
+<br>
+<br>
+<br>
+<br>
+
+<div class="card bg-dark footer">
 <div class="card-body text-center ">
 <span class="text-muted footerDark comments">ljudkalender.nu</span><br>
-<span class="text-muted">Alla låtar tillhör deras respektive ägare. <br> Byggd med &#10084; & <a href="">bootstrap</a>.</span>
+<span class="text-muted">Alla låtar tillhör deras respektive ägare. <br></span>
 </div>
 </div>
-
 
 
 
@@ -325,7 +1138,6 @@ window.addEventListener("load", function () {
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
