@@ -56,6 +56,14 @@
       font-size: 30px;
       font-family: 'CGB', sans-serif;
     }
+    .counterNumber{
+      font-size: 60px;
+      font-family: 'CGB', sans-serif;
+    }
+    .counterSub{
+      font-size: 40px;
+      font-family: 'CGB', sans-serif;
+    }
     .comments{
       font-family: 'CGB', sans-serif;
     }
@@ -1047,7 +1055,7 @@ Dagens låt framförs av det danska bandet Cody, med Kasper Kaae som frontfigur.
 </a>
 </div>
 </div>
-	
+
 <script>
 window.addEventListener("load", function (){
     // Få dagens datum
@@ -1265,6 +1273,16 @@ titlebar(0);
 
 
 
+<br>
+<br>
+<br>
+<br>
+<h1 id="count" class="counterNumber text-center text-white">0</h1>
+<h1 class="counterSub text-center text-white">Visningar</h1>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -1283,6 +1301,18 @@ window.addEventListener("load", function () {
     $('.brINACTIVE').remove();
   },1000);
 });
+
+var countEl = document.getElementById("count");
+
+updateVisitCount();
+
+function updateVisitCount() {
+    fetch('https://api.countapi.xyz/update/ljudkalender.nu/ljudkalender2021/?amount=1')
+    .then(res => res.json())
+    .then(res => {
+        countEl.innerHTML = res.value;
+    })
+}
 </script>
 
 <script src="js/script.js"></script>
@@ -1291,14 +1321,6 @@ window.addEventListener("load", function () {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <div class="card bg-dark footer">
 <div class="card-body text-center ">
