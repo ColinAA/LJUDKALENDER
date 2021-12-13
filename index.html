@@ -179,6 +179,14 @@ ljudkalender.nu
 <p>Klicka på dagens lucka för att öppna den och lyssna på låten!</p>
   </div>
 </div>
+    <br> 
+	  <div class="card bg-warning">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka1-12">
+        <div class="card-body luckaNummer text-center ">
+          1-12
+        </div>
+      </span>
+</div>
     <br>
 
     <div class="card startMessage text-center text-white bg-dark" id="firstMessage" >
@@ -1004,7 +1012,26 @@ Dagens låt framförs av det danska bandet Cody, med Kasper Kaae som frontfigur.
   </div>
 </div>
 
-
+<div class="modal fade " id="lucka1-12" tabindex="-1" aria-labelledby="1-12ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="1-12ModalLabel">Lucka 1 till 12</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+           Här kan du lyssna på lucka 1-12 i ett sträck.
+        <br>
+</h4><br>
+        <audio class="" controls controlsList="nodownload" src="https://cdn.discordapp.com/attachments/882298913565061170/919526405753147472/Ljudkalender_2021_Lucka_1-12.mp3"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <div class="modal fade " id="about" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
