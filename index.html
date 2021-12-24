@@ -56,6 +56,14 @@
       font-size: 30px;
       font-family: 'CGB', sans-serif;
     }
+    .counterNumber{
+      font-size: 60px;
+      font-family: 'CGB', sans-serif;
+    }
+    .counterSub{
+      font-size: 40px;
+      font-family: 'CGB', sans-serif;
+    }
     .comments{
       font-family: 'CGB', sans-serif;
     }
@@ -179,8 +187,17 @@ ljudkalender.nu
 <p>Klicka på dagens lucka för att öppna den och lyssna på låten!</p>
   </div>
 </div>
-    <br> 
-	  <div class="card bg-warning">
+
+    <br>
+    <div class="card bg-warning">
+      <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka13-24">
+        <div class="card-body luckaNummer text-center ">
+          13-24
+        </div>
+      </span>
+</div>
+    <br>
+    <div class="card bg-warning">
       <span type="button" class="" data-bs-toggle="modal" data-bs-target="#lucka1-12">
         <div class="card-body luckaNummer text-center ">
           1-12
@@ -1012,6 +1029,7 @@ Dagens låt framförs av det danska bandet Cody, med Kasper Kaae som frontfigur.
   </div>
 </div>
 
+
 <div class="modal fade " id="lucka1-12" tabindex="-1" aria-labelledby="1-12ModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-danger text-white">
@@ -1032,6 +1050,29 @@ Dagens låt framförs av det danska bandet Cody, med Kasper Kaae som frontfigur.
     </div>
   </div>
 </div>
+
+<div class="modal fade " id="lucka13-24" tabindex="-1" aria-labelledby="1-12ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-danger text-white">
+      <div class="modal-header">
+        <h3 class="modal-title" id="1-12ModalLabel">Lucka 13 till 24</h3><br>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>
+           Här kan du lyssna på lucka 13-24 i ett sträck.
+        <br>
+</h4><br>
+        <audio class="" controls controlsList="nodownload" src="https://drive.google.com/uc?export=download&id=1PAvWmNcGQJzpWGqcyjbl7DeEPMACdrpI
+"></audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success startMessage" data-bs-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <div class="modal fade " id="about" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
@@ -1074,7 +1115,7 @@ Dagens låt framförs av det danska bandet Cody, med Kasper Kaae som frontfigur.
 </a>
 </div>
 </div>
-	
+
 <script>
 window.addEventListener("load", function (){
     // Få dagens datum
@@ -1096,7 +1137,7 @@ window.addEventListener("load", function (){
     var lucka14 = new Date("2021/12/14");
     var lucka15 = new Date("2021/12/15");
     var lucka16 = new Date("2021/12/16");
-    var lucka17 = new Date("2021/12/17");
+    var lucka17 = new Date("2021/12/10");
     var lucka18 = new Date("2021/12/18");
     var lucka19 = new Date("2021/12/19");
     var lucka20 = new Date("2021/12/20");
@@ -1292,8 +1333,6 @@ titlebar(0);
 
 
 
-
-
 <br>
 <br>
 <br>
@@ -1304,6 +1343,9 @@ titlebar(0);
 <br>
 <br>
 <br>
+
+
+
 
 
 
@@ -1319,7 +1361,7 @@ window.addEventListener("load", function () {
     $('.brINACTIVE').remove();
   },1000);
 });
-	
+
 var countEl = document.getElementById("count");
 
 updateVisitCount();
@@ -1337,6 +1379,7 @@ function updateVisitCount() {
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 
 <div class="card bg-dark footer">
